@@ -58,3 +58,7 @@ buck-out/
 # Jest
 #
 .jest/
+
+# secret keys
+#
+server/config.js

@@ -7,9 +7,19 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.0.10",
     "@types/react-test-renderer": "^16.8.2",
+    "apicache": "^1.4.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "react": "16.8.3",
-    "react-native": "0.59.9"
+    "react-native": "0.59.9",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-promise": "^0.6.0",
+    "xml2json": "^0.11.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -18,11 +28,15 @@
     "@types/react": "^16.8.22",
     "@types/react-native": "^0.57.64",
     "babel-jest": "^24.8.0",
+    "fs-extra": "^8.1.0",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.54.1",
+    "nodemon": "^1.19.1",
+    "npm-run-all": "^4.1.5",
     "react-native-typescript-transformer": "^1.2.12",
     "react-test-renderer": "16.8.3",
     "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
   },
   "jest": {
@@ -42,5 +56,6 @@
       "<rootDir>/node_modules/"
     ],
     "cacheDirectory": ".jest/cache"
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
